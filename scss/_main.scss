@@ -1,22 +1,28 @@
 .main{
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feba0f+0,f9e9b8+100 */
-background: rgb(254,186,15); /* Old browsers */
-background: -moz-linear-gradient(45deg, rgb(254,186,15) 0%, rgb(249,233,184) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(45deg, rgb(254,186,15) 0%,rgb(249,233,184) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(45deg, rgb(254,186,15) 0%,rgb(249,233,184) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feba0f', endColorstr='#f9e9b8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-padding: 50px 55px;
+background: rgba(255,187,16,1);
+background: -moz-linear-gradient(45deg, rgba(255,187,16,1) 0%, rgba(255,187,16,1) 45%, rgba(249,232,183,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,187,16,1)), color-stop(45%, rgba(255,187,16,1)), color-stop(100%, rgba(249,232,183,1)));
+background: -webkit-linear-gradient(45deg, rgba(255,187,16,1) 0%, rgba(255,187,16,1) 45%, rgba(249,232,183,1) 100%);
+background: -o-linear-gradient(45deg, rgba(255,187,16,1) 0%, rgba(255,187,16,1) 45%, rgba(249,232,183,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(255,187,16,1) 0%, rgba(255,187,16,1) 45%, rgba(249,232,183,1) 100%);
+background: linear-gradient(45deg, rgba(255,187,16,1) 0%, rgba(255,187,16,1) 45%, rgba(249,232,183,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb10', endColorstr='#f9e8b7', GradientType=1 );
+padding:25px;
 
 
-.title-fist,
+.title-first,
 .title-second {
-	background-color: $primary-color;
-	padding: 10px;
-	border-radius:20px;
+	// background-color: $primary-color;
+	// padding: 10px;
+	// border-radius:20px;
+	// color: $secondary-color;
+	// text-align: center;
+	// margin:0;
+	// font-size: 1.9em;
 	color: $secondary-color;
 	text-align: center;
-	margin:0;
-	font-size: 1.9em;
+	font-family: 'montserratblack';
+	font-size: 2.1em;
 }
 
 .title-second{

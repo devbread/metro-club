@@ -5766,9 +5766,9 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 .preheader {
+  display: none;
   background-color: #ffffff;
-  padding: 10px 22px;
-  display: block; }
+  padding: 10px 22px; }
   .preheader ul.secondary-nav {
     margin: 0;
     padding: 0;
@@ -5790,29 +5790,25 @@ body {
 
 header {
   background-color: #8639ab;
-  padding: 50px 22px; }
+  padding: 20px; }
+  header img {
+    width: 60%;
+    margin: 0 auto;
+    display: block; }
 
 .main {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feba0f+0,f9e9b8+100 */
-  background: #feba0f;
-  /* Old browsers */
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #feba0f 0%, #f9e9b8 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #feba0f 0%, #f9e9b8 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feba0f', endColorstr='#f9e9b8',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */
-  padding: 50px 55px; }
-  .main .title-fist,
+  background: #ffbb10;
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #ffbb10), color-stop(45%, #ffbb10), color-stop(100%, #f9e8b7));
+  background: -webkit-linear-gradient(45deg, #ffbb10 0%, #ffbb10 45%, #f9e8b7 100%);
+  background: linear-gradient(45deg, #ffbb10 0%, #ffbb10 45%, #f9e8b7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbb10', endColorstr='#f9e8b7', GradientType=1 );
+  padding: 25px; }
+  .main .title-first,
   .main .title-second {
-    background-color: #8639ab;
-    padding: 10px;
-    border-radius: 20px;
     color: #ffffff;
     text-align: center;
-    margin: 0;
-    font-size: 1.9em; }
+    font-family: 'montserratblack';
+    font-size: 2.1em; }
   .main .title-second {
     display: inline-block;
     margin-top: 25px; }
