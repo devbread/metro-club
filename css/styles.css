@@ -5766,6 +5766,7 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 .preheader {
+  display: none;
   background-color: #ffffff;
   padding: 10px 22px;
   display: block; }
